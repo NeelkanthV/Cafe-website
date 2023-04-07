@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Coffee Web</title>
+    <style>
+      #container{
+        max-width:720px;
+        margin: 0 auto 0 auto;
+      }
+      
+      *{
+        box-sizing: border-box;
+      }
+      .bg-image {
+        background-image: url("/static/cafe.png");
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bg-text{
+        font-family: Lucida Sans;
+        color: white;
+        font-weight:bold;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+      .btn{
+        width: 90px;
+        height: 70px;
+        background-color: brown;
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 47%;
+        border-radius: 12px;
+      }
+    </style>
+    <div class = "bg-image"></div>
+    <div class = "bg-text">
+        <h1>
+          Welcome to Martian Cafe!
+          <br>
+          <br>
+          Discover the test of real Coffee & Tea!
+          <br>
+          <br>
+          <br>
+          Visit Us Today!
+        </h1>
+    </div>    
+    <button class="btn" onclick="window.location.href = 'https://coffee.neelkanthv.repl.co/';">WELCOME☕</button>
+  </head>
+</html>
